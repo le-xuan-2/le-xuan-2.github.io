@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAN LE XUAN</title>
+    <link rel="icon" type="image/x-icon" href="images/clover.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Rock+3D&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section id="about">
+        <h2>Hello World, I'm Le Xuan!</h2>
+        <br>
+        
+        <div class="intro">
+            <img src="images/pfp.jpg" alt="me" class="profile-pic">
+
+            <div class="intro-text">
+                <p>Computing and Law student at SMU with a passion for aesthetic digital experiences, frontend development, and data science.</p>
+                <hr>
+
+                <p>
+                    <strong>Email:</strong> <a href="mailto:lexuan.tan1023@gmail.com">lexuan.tan1023@gmail.com</a><br>
+                    <strong>Resume:</strong> <a href="documents/resume.pdf" target="_blank">View Resume</a>
+                </p>
+                <hr>
+
+                <p>
+                    <a href="https://github.com/le-xuan-2" target="_blank">GitHub</a> | 
+                    <a href="https://www.linkedin.com/in/lexuant2023/" target="_blank">LinkedIn</a>
+                </p>
+            </div>
+        </div>  
+    </section>
+      
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="carousel">
+            <button class="carousel-btn left" onclick="moveCarousel(-1)">‹</button>
+            <div class="carousel-track">
+            <div class="project-card active">
+                <img src="https://via.placeholder.com/300x200.png?text=Project+3" alt="Project 1">
+                <h3>Project One</h3>
+                <p> Project 1 Details</p>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200.png?text=Project+3" alt="Project 2">
+                <h3> Project Two </h3>
+                <p> Project 2 Details </p>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200.png?text=Project+3" alt="Project 3">
+                <h3>Project Three</h3>
+                <p>Project 3 Details</p>
+            </div>
+            </div>
+            <button class="carousel-btn right" onclick="moveCarousel(1)">›</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <div class="copyright">
+        <p>© 2025 Tan Le Xuan. All rights reserved.</p>
+    </div>
+</footer>
+</html>
