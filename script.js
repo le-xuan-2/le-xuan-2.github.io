@@ -38,3 +38,6 @@ function moveCarousel(direction) {
 }
 
 document.addEventListener('DOMContentLoaded', updateCarousel);
+
+document.querySelector('.carousel-btn.left').addEventListener('click', () => moveCarousel(-1));
+document.querySelector('.carousel-btn.right').addEventListener('click', () => moveCarousel(1));
