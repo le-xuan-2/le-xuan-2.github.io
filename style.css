@@ -112,8 +112,9 @@ p {
 }
   
 .project-card {
-    width: 300px;
-    padding: 1rem;
+    width: 90%;
+    max-width: 700px;
+    padding: 2rem;
     background: #f0f8ff;
     border-radius: 12px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);
@@ -147,8 +148,8 @@ p {
 .project-card img {
     width: 150px;           
     height: 150px;           
-    object-fit: cover;    
-    border-radius: 50%;      
+    object-fit: contain;    
+    border-radius: 0%;      
     display: block;          
     margin: 0 auto 1rem; 
   }
